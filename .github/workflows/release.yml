@@ -800,6 +800,7 @@ jobs:
           cp "${env:HIP_PATH}\bin\libhipblas.dll" "build\bin\"
           cp "${env:HIP_PATH}\bin\libhipblaslt.dll" "build\bin\"
           cp "${env:HIP_PATH}\bin\rocblas.dll" "build\bin\"
+          cp "${env:HIP_PATH}\bin\amdhip64_7.dll" "build\bin\"
           cp "${env:HIP_PATH}\bin\rocblas\library\*" "build\bin\rocblas\library\"
           cp "${env:HIP_PATH}\bin\hipblaslt\library\*" "build\bin\hipblaslt\library\"
 
